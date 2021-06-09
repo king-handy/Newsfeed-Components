@@ -145,7 +145,7 @@ function articleMaker({title, date, firstParagraph, secondParagraph, thirdParagr
   date.textContent = date
 
   expandButton.addEventListener('click', () => {
-    artiicles.classList.toggle('expandButton')
+    articles.classList.toggle('expandButton')
   })
 
   return article
